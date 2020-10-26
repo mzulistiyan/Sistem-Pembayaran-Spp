@@ -1,0 +1,269 @@
+
+/* TABLE */
+#costumers{
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  overflow:auto;
+  height: 28px;
+}
+#costumers td{
+  border: 1px solid #ddd;
+  border-left: 0px solid #ddd;
+  border-right:  0px solid #ddd;
+  padding: 25px;
+  margin-left: 6px;
+}
+
+#costumers th{
+  padding: 25px;
+  margin-left: 6px;
+  color: #9aa0ac
+}
+
+#costumers tr:nth-child(even){
+  background-color: white;
+}
+#costumers tr:hover{
+  background-color: #ddd;
+}
+
+#costumers th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+  color: #9aa0ac;
+  font-weight: 400;
+}
+/* Tutuop TABLE */
+
+/* CSS DASHBOAR */
+.header{
+  width: auto;
+  height: 80px;
+  background-color:#fff;
+  padding-top: 10px;
+  border-bottom: 1px solid rgba(0, 40, 100, 0.12);
+  font-weight: bold;
+}
+.nav{
+  width: auto;
+  height: 60px;
+  background-color:#fff;
+  border-bottom: 1px solid rgba(0, 40, 100, 0.12);
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.nav ul{
+  list-style: none;
+}
+
+.nav ul li a{
+  color: black;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  margin-left:25px;
+  font-size: 15px;
+  border-bottom: 3px solid transparent;
+}
+
+.nav ul li span{
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+}
+.nav i{
+  margin-right: 5px;
+}
+.nav a:hover {
+  border-bottom: 3px solid #467fcf;
+}
+
+.nav a.active {
+  border-bottom: 3px solid #467fcf;
+}
+
+/* TUTUP CSS DASHBOAR */
+
+/* css CONTENT */
+.content{
+  width: 123rem;
+  margin-left: 80px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.tittle{
+  margin-top: 80px;
+  width: 122.8rem;
+  height: 9vh;
+  background-color: white;
+  border: 1px solid rgba(0, 40, 100, 0.12);
+  border-left: 0px solid #ddd;
+  border-right:  0px solid #ddd;
+}
+.tombol {
+  padding: 0.25rem 0.5rem;
+  line-height: 1.33333333;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  color: #467fcf;
+  border: 1px solid #467fcf;
+}
+
+.tombol:hover{
+  background-color: #467fcf;
+  color:#fff;
+}
+
+.tombol:active {
+  background-color: #467fcf;
+  box-shadow: 0 2px #666;
+  color: white;
+}
+
+.form{
+  width: 123rem;
+  margin-left: 80px;
+}
+.tambah{
+  width: 122.8rem;
+  height: auto;
+  background-color: white;
+}
+
+/* Tutup Content*/
+
+/*CSS FORM */
+input[type=text], [type=password],  select {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 2px 25px 5px 25px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.cari{
+  margin:;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.simpan {
+  width: 92%;
+  background-color: #316CBE;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 45px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ui-datepicker-calendar {
+   display: none;
+}
+
+input[type=submit]:hover {
+  background-color: #316CBE;
+}
+.fname{
+  margin: 5px 25px ;
+}
+.date{
+  width: 95%;
+  padding: 12px 20px;
+  margin: 2px 25px 5px 25px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.number{
+  width: 35%;
+  padding: 12px 20px;
+  margin: 2px 25px 5px 25px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/* TUTUP CSS FORM */
+
+/* CSS BUTTON */
+#myBtn{
+    margin-bottom: 0;
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    background-color: #5bc0de;
+    color: white;
+    float: right;
+    margin-left: 10px;
+    text-decoration: none;
+
+}
+#myBtnCari{
+    margin-bottom: 0;
+    font-weight: 300;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.12857143;
+    border-radius: 4px;
+    background-color: #467fcf;
+    color: white;
+    margin-right: 19px;
+    text-decoration: none;
+
+}
+#myBtnCariTrans{
+    margin-bottom: 0;
+    font-weight: 300;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 0.9;
+    border-radius: 4px;
+    background-color: #467fcf;
+    color: white;
+    margin-right: 19px;
+    text-decoration: none;
+
+}
+/* PAGINATION*/
+.pagination{
+  margin-top: 20px;
+}
+.pagination li{
+  list-style: none;
+  float: left;
+}
+.pagination li span, .pagination li a{
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  text-decoration: none;
+  color: black;
+}
+.pagination li.active span{
+  background-color: #467fcf;
+  color: white;
+  border: 1px solid #467fcf;
+}
